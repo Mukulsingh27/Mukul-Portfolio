@@ -51,7 +51,7 @@
 				<div class="pana-accordion-item set-bg" data-setbg="img/hero/mukul2.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
-						<h2>69 Flavio Burg Suite</h2>
+						<h2>Joint Secretary at MTC</h2>
 						<div class="pa-author">
 							<img src="img/Hero/author.jpg" alt="">
 							<h4>Arthur Rose</h4>
@@ -92,7 +92,7 @@
 		</div>
 		<div class="hero-slider-warp">
 			<div class="hero-slider owl-carousel">
-				<div class="hero-item set-bg" data-setbg="img/hero/5.jpg">
+				<div class="hero-item set-bg" data-setbg="img/hero/mukul.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
 						<h2>69 Flavio Burg Suite</h2>
@@ -102,7 +102,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="hero-item set-bg" data-setbg="img/hero/1.jpg">
+				<div class="hero-item set-bg" data-setbg="img/hero/mukul2.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
 						<h2>69 Flavio Burg Suite</h2>
@@ -112,7 +112,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="hero-item set-bg" data-setbg="img/hero/2.jpg">
+				<div class="hero-item set-bg" data-setbg="img/hero/mukul3.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
 						<h2>69 Flavio Burg Suite</h2>
@@ -122,7 +122,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="hero-item set-bg" data-setbg="img/hero/3.jpg">
+				<div class="hero-item set-bg" data-setbg="img/hero/mukul4.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
 						<h2>69 Flavio Burg Suite</h2>
@@ -132,7 +132,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="hero-item set-bg" data-setbg="img/hero/4.jpg">
+				<div class="hero-item set-bg" data-setbg="img/hero/mukul1.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
 						<h2>69 Flavio Burg Suite</h2>

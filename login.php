@@ -7,7 +7,11 @@ session_start();
        $email = mysqli_real_escape_string($con,trim($_POST['email']));
     // $username = mysqli_real_escape_string($con,trim($_POST['username']));
        $password = mysqli_real_escape_string($con,md5(trim($_POST['password'])));
-      
+      if(isset($_POST['customCheck'])){
+        $re = 'on';
+      }else{
+        $re = '';
+      }
        
 
        $query = "SELECT * FROM portfolio WHERE email='$email' AND password = '$password'";
@@ -20,7 +24,9 @@ session_start();
     //    if($fire) echo mysqli_num_rows($fire). " row found";
     if($fire){
         if(mysqli_num_rows($fire) == 1){
-            
+            if($re == 'on'){
+              setcookie("emai",$email,time() + (86400 * 10));
+            }
             $_SESSION['is_login'] = true;
            $_SESSION['fullname']= $users['fullname'];
             // $_SESSION['username'] = $username;
@@ -88,7 +94,7 @@ session_start();
                     </div>
                     <div class="form-group">
                       <div class="custom-control custom-checkbox small">
-                        <input type="checkbox" class="custom-control-input" id="customCheck">
+                        <input type="checkbox" class="custom-control-input" id="customCheck" name="customCheck" value="on">
                         <label class="custom-control-label" for="customCheck">Remember Me</label>
                       </div>
                     </div>
@@ -111,8 +117,11 @@ session_start();
                   <div class="text-center">
                     <a class="small" href="signup.php">Create an Account!</a>
                   </div>
+                  <br>
                   <div class="text-center">
-                    <a class="small" href="index.php">Home Page</a>
+                  <a class="small" href="index.php">
+                  <button name="btn-login" class="btn btn-primary btn-user ">Home Page </button>
+                  </a>
                   </div>
                 </div>
               </div>
