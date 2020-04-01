@@ -1,108 +1,99 @@
 <?php require "config/config.php"; ?>
 
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zxx">
 <head>
+	<title>Mukul-Profile/Signup</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Portfolio about Mukul">
+	<link rel="shortcut icon" type="image/png" href="img/M.jfif">
+	<meta name="keywords" content="photo, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/themify-icons.css"/>
+	<link rel="stylesheet" href="css/accordion.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
 
-  <title>Register</title>
 
-  <!-- Custom fonts for this template-->
-  <link href="admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-  <!-- Custom styles for this template-->
-  <link href="admin/css/sb-admin-2.min.css" rel="stylesheet">
+	<!-- [if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif] -->
 
 </head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
 
-<body class="bg-gradient-primary">
-
-  <div class="container">
-
-    <div class="card o-hidden border-0 shadow-lg my-5">
-      <div class="card-body p-0">
-        <!-- Nested Row within Card Body -->
-        <div class="row">
-          <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
-          <div class="col-lg-7">
-            <div class="p-5">
-              <div class="text-center">
-                <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
-              </div>
+	<!-- Offcanvas Menu Section -->
+	<?php include "nav.php"; ?>
+    <!-- Offcanvas Menu Section end -->
+<div class="container">  
+    <div class="blog-main">  
+<div class="blog-post">
+      <div class="blog-post-img">
+          <img src="img/signup.jpg" alt="">
+      </div>    
+      <div class="blog-post-info">
+              <h1 class="blog-post-title"> Sign-up </h1>
+              <p class="blog-post-text"> we don't share password with anyone</p>
+              <!-- <a href="#" class="blog-post-cta">Read more</a> -->
               <form class="user" name="signup" id="signup" action="config/submit.php" method="POST">
-                <div class="form-group row">
-                  <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="text" class="form-control form-control-user" name="fullname" id="fullname" placeholder="Full Name">
-                  </div>
-                  <div class="col-sm-6">
-                    <input type="text" class="form-control form-control-user" name="username" id="username" placeholder="User Name">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control form-control-user" name="email" id="email" placeholder="Email Address">
-                </div>
-                <!-- <div class="form-group">
-                  <input type="password" class="form-control form-control-user" name="password" id="password" placeholder="Password">
-                </div> -->
-                <div class="form-group row">
-                  <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="number" class="form-control form-control-user" name="phone" id="phone" placeholder="Phone Number">
-                  </div>
-                  <div class="col-sm-6">
-                    <input type="password" class="form-control form-control-user" name="password" id="password" placeholder="Password">
-                  </div>
-                </div>
-                <!-- <a href="login.html" class="btn btn-primary btn-user btn-block">
-                  Register Account
-                </a> -->
-                <button name="submit" id="submit" type="submit" value="submit" class="btn btn-primary btn-user btn-block">REGISTER !</button>
-                <button name="reset" id="reset" type="reset" value="reset" class="btn btn-warning btn-user btn-block">RESET !</button>
-                <hr>
-                <a href="index.html" class="btn btn-google btn-user btn-block">
-                  <i class="fab fa-google fa-fw"></i> Register with Google/ not working
-                </a>
-                <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                  <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook/ not working
-                </a>
+              <div class="form-group">
+              <input type="text" class="form-control form-control-user" name="fullname" id="fullname" aria-describedby="emailHelp" placeholder="Full-Name">
+              </div>
+              <div class="form-group">
+              <input type="text" class="form-control form-control-user" name="username" id="username" aria-describedby="emailHelp" placeholder="User-Name">
+              </div>
+              <div class="form-group">
+              <input type="email" class="form-control form-control-user" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter Email Address">
+              </div>
+              <div class="form-group">
+              <input type="tel" class="form-control form-control-user" id="phone" name="phone" aria-describedby="emailHelp" placeholder="Enter Phone Number" required>
+              </div>
+              <div class="form-group">
+              <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Password">
+              </div>
+                <button name="submit" id="submit" type="submit" value="submit" class="btn  btn-user btn-block">REGISTER !</button>
+                <button name="reset" id="reset" type="reset" value="reset" class="btn  btn-user btn-block">RESET !</button>
               </form>
-              <hr>
-              <div class="text-center">
-                <a class="small" href="forgot-password.php">Forgot Password?</a>
-              </div>
-              <div class="text-center">
-                <a class="small" href="login.php">Already have an account? Login!</a>
-              </div>
               <br>
               <div class="text-center">
-              <a class="small" href="index.php">
-                  <button name="btn-login" class="btn btn-primary btn-user ">Home Page </button>
-                  </a>
+                    <a class="small" href="forgot-password.php">Forgot Password?</a>
                   </div>
-            </div>
-          </div>
-        </div>
+                  <div class="text-center">
+                  <a class="small" href="login.php">Already have an account? Login!</a>
+                  </div>
+                  <br>
+                  <div class="text-center">
+                  <a class="small" href="index.php">
+                  <button name="btn-login" class="btn btn-user">Home Page </button>
+                  </a>
+
       </div>
+</div>
     </div>
+</div>
 
-  </div>
 
-  <!-- Bootstrap core JavaScript-->
-  <script src="admin/vendor/jquery/jquery.min.js"></script>
-  <script src="admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Core plugin JavaScript-->
-  <script src="admin/vendor/jquery-easing/jquery.easing.min.js"></script>
+    	<!--====== Javascripts & Jquery ======-->
+	<script src="js/vendor/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/pana-accordion.js"></script>
+	<script src="js/main.js"></script>
 
-  <!-- Custom scripts for all pages-->
-  <script src="admin/js/sb-admin-2.min.js"></script>
-
-</body>
-
+	</body>
 </html>

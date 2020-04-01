@@ -47,7 +47,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: linear-gradient(to right, rgba(79,172,254,.8),rgba(0,242,254,.2));
+	/* background: linear-gradient(to right, rgba(79,172,254,.8),rgba(0,242,254,.2)); */
 	box-shadow: .5rem .5rem 1px rgba(0,0,0,.05);
 	border-radius: .8rem;
 }
@@ -83,11 +83,15 @@
 	padding: 1.5rem 1rem;
 }
 .btn-user{
-    font-size: 0.9rem;
+	font-size: 0.9rem;
+	font-weight: bold;
 	border-radius: 10rem;
 	padding: .75rem 1rem;
-	background-color: #ec414dd5;
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 	color: #fff;
+}
+.btn-block{
+	width: 50%;
 }
 
 
@@ -120,6 +124,10 @@
 }
 
 /*end of css login*/
+
+/*################################################################################*/
+
+/*start of css signup*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap");
 
 
