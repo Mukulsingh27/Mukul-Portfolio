@@ -41,113 +41,241 @@
 			<h4>Gallery</h4>
 			<ul class="gallery-filter">
 				<li class="filter all active" data-filter="*">All</li>
-				<li class="filter" data-filter=".featured">Featured</li>
-				<li class="filter" data-filter=".people">People</li>
-				<li class="filter" data-filter=".nature">Nature</li>
-				<li class="filter" data-filter=".animal">Animal</li>
-				<li class="filter" data-filter=".travel">Travel</li>
+				<li class="filter" data-filter=".1">1</li>
+				<li class="filter" data-filter=".2">2</li>
+				<li class="filter" data-filter=".3">3</li>
+				<li class="filter" data-filter=".4">4</li>
+				<li class="filter" data-filter=".5">5</li>
 			</ul>
 		</div>
 		<div class="nice-scroll">
 			<div class="gallery-warp">
 				<div class="grid-sizer"></div>
-				<div class="gallery-item gi-big featured">
+				<div class="gallery-item gi-big 1">
 					<a class="fresco" href="img/gallery/1.jpg" data-fresco-group="projects">
-						<img src="img/gallery/1.jpg" alt="">
+						<img src="img/hero/mukul.jpg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
-				<div class="gallery-item people">
+				<div class="gallery-item 2">
+					<a class="fresco" href="img/gallery/brther.jpeg" data-fresco-group="projects">
+						<img src="img/gallery/brther.jpeg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item 3">
+					<a class="fresco" href="img/gallery/3.jpg" data-fresco-group="projects">
+						<img src="img/hero/mukul3.jpg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item gi-long 5">
+					<a class="fresco" href="img/gallery/defaulter.jpg" data-fresco-group="projects">
+						<img src="img/gallery/defaulter.jpg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+
+				<div class="gallery-item gi-big 4">
+					<a class="fresco" href="img/gallery/group.jpeg" data-fresco-group="projects">
+						<img src="img/gallery/group.jpeg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item gi-big 1">
+					<a class="fresco" href="img/gallery/upesc.jpeg" data-fresco-group="projects">
+						<img src="img/gallery/upesc.jpeg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item 5">
 					<a class="fresco" href="img/gallery/2.jpg" data-fresco-group="projects">
 						<img src="img/gallery/2.jpg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
-				<div class="gallery-item nature">
-					<a class="fresco" href="img/gallery/3.jpg" data-fresco-group="projects">
-						<img src="img/gallery/3.jpg" alt="">
+				<div class="gallery-item 2">
+					<a class="fresco" href="img/gallery/mirror.jpg" data-fresco-group="projects">
+						<img src="img/gallery/mirror.jpg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
-				<div class="gallery-item gi-long travel">
-					<a class="fresco" href="img/gallery/4.jpg" data-fresco-group="projects">
-						<img src="img/gallery/4.jpg" alt="">
+					
+				<div class="gallery-item 2">
+					<a class="fresco" href="img/gallery/dandiya.jpg" data-fresco-group="projects">
+						<img src="img/gallery/dandiya.jpg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
-				<div class="gallery-item gi-big animal">
-					<a class="fresco" href="img/gallery/6.jpg" data-fresco-group="projects">
-						<img src="img/gallery/6.jpg" alt="">
+				<div class="gallery-item 4">
+					<a class="fresco" href="img/gallery/saitu.jpg" data-fresco-group="projects">
+						<img src="img/gallery/saitu.jpg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
-				<div class="gallery-item gi-big featured">
-					<a class="fresco" href="img/gallery/5.jpg" data-fresco-group="projects">
-						<img src="img/gallery/5.jpg" alt="">
+				<div class="gallery-item gi-big 5">
+					<a class="fresco" href="img/gallery/muss.jpeg" data-fresco-group="projects">
+						<img src="img/gallery/muss.jpeg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
-				<div class="gallery-item travel">
-					<a class="fresco" href="img/gallery/7.jpg" data-fresco-group="projects">
-						<img src="img/gallery/7.jpg" alt="">
+				<div class="gallery-item 1">
+					<a class="fresco" href="img/gallery/barbie.jpg" data-fresco-group="projects">
+						<img src="img/gallery/barbie.jpg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
-				<div class="gallery-item people">
-					<a class="fresco" href="img/gallery/8.jpg" data-fresco-group="projects">
-						<img src="img/gallery/8.jpg" alt="">
+				<div class="gallery-item 3">
+					<a class="fresco" href="img/gallery/selfie2.jpg" data-fresco-group="projects">
+						<img src="img/gallery/selfie2.jpg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
-				<div class="gallery-item animal">
-					<a class="fresco" href="img/gallery/9.jpg" data-fresco-group="projects">
-						<img src="img/gallery/9.jpg" alt="">
+				<div class="gallery-item 3">
+					<a class="fresco" href="img/gallery/blood.jpg" data-fresco-group="projects">
+						<img src="img/gallery/blood.jpg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
-				<div class="gallery-item gi-big travel">
-					<a class="fresco" href="img/gallery/10.jpg" data-fresco-group="projects">
-						<img src="img/gallery/10.jpg" alt="">
+				<div class="gallery-item 2">
+					<a class="fresco" href="img/gallery/bullet.jpg" data-fresco-group="projects">
+						<img src="img/gallery/bullet.jpg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
-				<div class="gallery-item featured">
-					<a class="fresco" href="img/gallery/11.jpg" data-fresco-group="projects">
-						<img src="img/gallery/11.jpg" alt="">
+				<div class="gallery-item 4">
+					<a class="fresco" href="img/gallery/muss1.jpeg" data-fresco-group="projects">
+						<img src="img/gallery/muss1.jpeg" alt="">
 					</a>
 					<div class="gi-hover">
-						<img src="img/gallery/author.jpg" alt="">
-						<h6>Arthur Rose</h6>
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item gi-big 1">
+					<a class="fresco" href="img/gallery/bull.jpg" data-fresco-group="projects">
+						<img src="img/gallery/bull.jpg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item gi-big 5">
+					<a class="fresco" href="img/gallery/blush.jpg" data-fresco-group="projects">
+						<img src="img/gallery/blush.jpg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item 3">
+					<a class="fresco" href="img/gallery/blood2.jpg" data-fresco-group="projects">
+						<img src="img/gallery/blood2.jpg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item 4">
+					<a class="fresco" href="img/gallery/rishi.jpg" data-fresco-group="projects">
+						<img src="img/gallery/rishi.jpg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item 2">
+					<a class="fresco" href="img/gallery/francis.jpeg" data-fresco-group="projects">
+						<img src="img/gallery/francis.jpeg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item gi-big 1">
+					<a class="fresco" href="img/gallery/selfie3.jpg" data-fresco-group="projects">
+						<img src="img/gallery/selfie3.jpg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item 3">
+					<a class="fresco" href="img/gallery/thakur.jpeg" data-fresco-group="projects">
+						<img src="img/gallery/thakur.jpeg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item 4">
+					<a class="fresco" href="img/gallery/dandiya2.jpg" data-fresco-group="projects">
+						<img src="img/gallery/dandiya2.jpg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
+					</div>
+				</div>
+				<div class="gallery-item gi-big 5">
+					<a class="fresco" href="img/gallery/bull2.jpg" data-fresco-group="projects">
+						<img src="img/gallery/bull2.jpg" alt="">
+					</a>
+					<div class="gi-hover">
+						<img src="img/gallery/2.jpg" alt="">
+						<h6>mukul</h6>
 					</div>
 				</div>
 			</div>
