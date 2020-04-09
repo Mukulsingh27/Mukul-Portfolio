@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-<title>Mukul - Profile</title>
+<title>Mukul-Profile/contact</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Portfolio about Mukul">
 	<link rel="shortcut icon" type="image/png" href="img/M.jfif">
@@ -37,27 +37,27 @@
 
 	<!-- Contact Section end -->
 	<div class="contact-section">
-		<div class="map-warp"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14376.077865872314!2d-73.879277264103!3d40.757667781624285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1546528920522" style="border:0" allowfullscreen></iframe></div>
+		<div class="map-warp"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.7108627512766!2d77.96464421499616!3d30.415944281748683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d4890d7c1735%3A0x22d3ae324c238e3c!2sUniversity%20of%20Petroleum%20and%20Energy%20Studies%20-%20UPES!5e0!3m2!1sen!2sin!4v1585590227408!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
 		<div class="contact-box">
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="contact-info">
 						<i class="ti-location-pin"></i>
-						<p>60-49 Road 11378<br>New York</p>	
+						<p>University of Petroleum and Energy Studies, Dehradun, Uttarakhand</p>	
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="contact-info">
 						<i class="ti-email"></i>
-						<p><span>Phone:</span> +65 11.188.888</p>	
-						<p><span>Mail:</span> colorlib@gmail.com</p>	
+						<p><span style="color: #d32f3a; font-weight:500">Phone:</span> +91 7060888670</p>	
+						<p><span style="color: #d32f3a; font-weight:500">Mail:</span> mukulsingh3344@gmail.com</p>	
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="contact-info">
 						<i class="ti-timer"></i>
-						<p><span>Week Days:</span> 10:00 – 22:00</p>	
-						<p><span>Sunday:</span> Close</p>	
+						<p><span style="color: #d32f3a; font-weight:500">Week Days:</span> 10:00 – 22:00</p>	
+						<p><span style="color: #d32f3a; font-weight:500">Saturday/Sunday:</span> Funday</p>	
 					</div>
 				</div>
 			</div>

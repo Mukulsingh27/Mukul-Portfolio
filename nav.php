@@ -2,9 +2,10 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<title>Mukul - Profile</title>
+	<title>Mukul-Profile/nav</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Portfolio about Mukul">
+	<link rel="shortcut icon" type="image/png" href="img/M.jfif">
 	<link rel="shortcut icon" type="image/png" href="img/M.jfif">
 	<meta name="keywords" content="photo, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,9 +57,9 @@
 				<li><a href="index.php" class="active">Home</a></li>
 				<li><a href="about.php">About</a></li>
 				<li><a href="gallery.php">Gallery</a></li>
-				<li><a href="blog.php">Blog</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="signup.php">Sign-up/Login</a></li>
+				<!-- <li><a href="blog.php">Blog</a></li> -->
+				<li><a href="contact.php">Contact</a></li>
+				<li><a href="signup.php">Sign-up/Login</a></li>
 			</ul>
 		</nav>
 		<div class="sm-footer">

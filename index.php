@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<title>Mukul - Profile</title>
+	<title>Mukul-Profile/home</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Portfolio about Mukul">
-	<link rel="shortcut icon" type="image/png" href="img/M.jfif">
 	<meta name="keywords" content="photo, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Stylesheets -->
@@ -43,48 +42,48 @@
 						<div class="pa-tag">people</div>
 						<h2>Mukul_Singh_27</h2>
 						<div class="pa-author">
-							<img src="img/Hero/author.jpg" alt="">
-							<h4>Arthur Rose</h4>
+							<img src="img/Hero/2.jpg" alt="">
+							<h4>UPES</h4>
 						</div>
 					</div>
 				</div>
 				<div class="pana-accordion-item set-bg" data-setbg="img/hero/mukul2.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
-						<h2>Joint Secretary at MTC</h2>
+						<h2>Joint Secretary</h2>
 						<div class="pa-author">
-							<img src="img/Hero/author.jpg" alt="">
-							<h4>Arthur Rose</h4>
+							<img src="img/Hero/2.jpg" alt="">
+							<h4>MTC</h4>
 						</div>
 					</div>
 				</div>
 				<div class="pana-accordion-item set-bg" data-setbg="img/hero/mukul3.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
-						<h2>69 Flavio Burg Suite</h2>
+						<h2>UP80 - JaaT</h2>
 						<div class="pa-author">
-							<img src="img/Hero/author.jpg" alt="">
-							<h4>Arthur Rose</h4>
+							<img src="img/Hero/2.jpg" alt="">
+							<h4>Bharatpur</h4>
 						</div>
 					</div>
 				</div>
 				<div class="pana-accordion-item set-bg" data-setbg="img/hero/mukul4.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
-						<h2>69 Flavio Burg Suite</h2>
+						<h2>WanderLust</h2>
 						<div class="pa-author">
-							<img src="img/Hero/author.jpg" alt="">
-							<h4>Arthur Rose</h4>
+							<img src="img/Hero/2.jpg" alt="">
+							<h4>Rishikesh</h4>
 						</div>
 					</div>
 				</div>
 				<div class="pana-accordion-item set-bg" data-setbg="img/hero/mukul1.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
-						<h2>69 Flavio Burg Suite</h2>
+						<h2>PhotoHolic</h2>
 						<div class="pa-author">
-							<img src="img/Hero/author.jpg" alt="">
-							<h4>Arthur Rose</h4>
+							<img src="img/Hero/2.jpg" alt="">
+							<h4>UPES</h4>
 						</div>
 					</div>
 				</div>
@@ -95,50 +94,50 @@
 				<div class="hero-item set-bg" data-setbg="img/hero/mukul.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
-						<h2>69 Flavio Burg Suite</h2>
+						<h2>Mukul_Singh_27</h2>
 						<div class="pa-author">
-							<img src="img/Hero/author.jpg" alt="">
-							<h4>Arthur Rose</h4>
+							<img src="img/Hero/2.jpg" alt="">
+							<h4>UPES</h4>
 						</div>
 					</div>
 				</div>
 				<div class="hero-item set-bg" data-setbg="img/hero/mukul2.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
-						<h2>69 Flavio Burg Suite</h2>
+						<h2>Joint Secretary</h2>
 						<div class="pa-author">
-							<img src="img/Hero/author.jpg" alt="">
-							<h4>Arthur Rose</h4>
+							<img src="img/Hero/2.jpg" alt="">
+							<h4>MTC</h4>
 						</div>
 					</div>
 				</div>
 				<div class="hero-item set-bg" data-setbg="img/hero/mukul3.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
-						<h2>69 Flavio Burg Suite</h2>
+						<h2>UP80 - JaaT</h2>
 						<div class="pa-author">
-							<img src="img/Hero/author.jpg" alt="">
-							<h4>Arthur Rose</h4>
+							<img src="img/Hero/2.jpg" alt="">
+							<h4>Bharatpur</h4>
 						</div>
 					</div>
 				</div>
 				<div class="hero-item set-bg" data-setbg="img/hero/mukul4.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
-						<h2>69 Flavio Burg Suite</h2>
+						<h2>WanderLust</h2>
 						<div class="pa-author">
-							<img src="img/Hero/author.jpg" alt="">
-							<h4>Arthur Rose</h4>
+							<img src="img/Hero/2.jpg" alt="">
+							<h4>Rishikesh</h4>
 						</div>
 					</div>
 				</div>
 				<div class="hero-item set-bg" data-setbg="img/hero/mukul1.jpg">
 					<div class="pa-text">
 						<div class="pa-tag">people</div>
-						<h2>69 Flavio Burg Suite</h2>
+						<h2>PhotoHolic</h2>
 						<div class="pa-author">
-							<img src="img/Hero/author.jpg" alt="">
-							<h4>Arthur Rose</h4>
+							<img src="img/Hero/2.jpg" alt="">
+							<h4>UPES</h4>
 						</div>
 					</div>
 				</div>
